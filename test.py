@@ -1,3 +1,5 @@
 import boto3
 import os
-print(os.listdir(os.getcwd()))
+import sys
+
+print(sys.argv)
